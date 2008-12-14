@@ -1,0 +1,132 @@
+gnet2.0
+-------------------------------------------
+GNet is a simple network library.  It is written in C, object-oriented,
+and built upon GLib.  It is intended to be easy to use and port.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libglib2.0_0-2.18.3-1
+
+Build requirements:
+(besides corresponding devel packages)
+  autoconf2.5-2.63-1
+  automake1.9-1.9.6-3
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.24.0-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.gnetlibrary.org/
+
+Canonical download:
+  http://www.gnetlibrary.org/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnet2.0-2.0.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnet2.0-2.0.8-X.cygport all
+
+This will create:
+  /usr/src/gnet2.0-2.0.8-X-src.tar.bz2
+  /usr/src/libgnet2.0-devel-2.0.8-X.tar.bz2
+  /usr/src/libgnet2.0_0-2.0.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libgnet2.0_0)
+  /usr/bin/cyggnet-2.0-0.dll
+  /usr/share/doc/gnet2.0-2.0.8/AUTHORS
+  /usr/share/doc/gnet2.0-2.0.8/BUGS
+  /usr/share/doc/gnet2.0-2.0.8/COPYING
+  /usr/share/doc/gnet2.0-2.0.8/ChangeLog
+  /usr/share/doc/gnet2.0-2.0.8/HACKING
+  /usr/share/doc/gnet2.0-2.0.8/INSTALL
+  /usr/share/doc/gnet2.0-2.0.8/NEWS
+  /usr/share/doc/gnet2.0-2.0.8/README
+  /usr/share/doc/gnet2.0-2.0.8/TODO
+
+(libgnet2.0-devel)
+  /usr/include/gnet-2.0/base64.h
+  /usr/include/gnet-2.0/conn-http.h
+  /usr/include/gnet-2.0/conn.h
+  /usr/include/gnet-2.0/gnet.h
+  /usr/include/gnet-2.0/inetaddr.h
+  /usr/include/gnet-2.0/iochannel.h
+  /usr/include/gnet-2.0/ipv6.h
+  /usr/include/gnet-2.0/mcast.h
+  /usr/include/gnet-2.0/md5.h
+  /usr/include/gnet-2.0/pack.h
+  /usr/include/gnet-2.0/server.h
+  /usr/include/gnet-2.0/sha.h
+  /usr/include/gnet-2.0/socks.h
+  /usr/include/gnet-2.0/tcp.h
+  /usr/include/gnet-2.0/udp.h
+  /usr/include/gnet-2.0/unix.h
+  /usr/include/gnet-2.0/uri.h
+  /usr/lib/gnet-2.0/include/gnetconfig.h
+  /usr/lib/libgnet-2.0.dll.a
+  /usr/lib/libgnet-2.0.la
+  /usr/lib/pkgconfig/gnet-2.0.pc
+  /usr/share/aclocal/gnet-2.0.m4
+  /usr/share/gtk-doc/html/gnet/gnet-base64.html
+  /usr/share/gtk-doc/html/gnet/gnet-conn-http.html
+  /usr/share/gtk-doc/html/gnet/gnet-conn.html
+  /usr/share/gtk-doc/html/gnet/gnet-developers-async.html
+  /usr/share/gtk-doc/html/gnet/gnet-developers-tips.html
+  /usr/share/gtk-doc/html/gnet/gnet-developers.html
+  /usr/share/gtk-doc/html/gnet/gnet-examples-other.html
+  /usr/share/gtk-doc/html/gnet/gnet-examples.html
+  /usr/share/gtk-doc/html/gnet/gnet-gnet.html
+  /usr/share/gtk-doc/html/gnet/gnet-inetaddr.html
+  /usr/share/gtk-doc/html/gnet/gnet-iochannel.html
+  /usr/share/gtk-doc/html/gnet/gnet-ipv6.html
+  /usr/share/gtk-doc/html/gnet/gnet-mcast.html
+  /usr/share/gtk-doc/html/gnet/gnet-md5.html
+  /usr/share/gtk-doc/html/gnet/gnet-overview.html
+  /usr/share/gtk-doc/html/gnet/gnet-pack.html
+  /usr/share/gtk-doc/html/gnet/gnet-server.html
+  /usr/share/gtk-doc/html/gnet/gnet-sha.html
+  /usr/share/gtk-doc/html/gnet/gnet-socks.html
+  /usr/share/gtk-doc/html/gnet/gnet-tcp.html
+  /usr/share/gtk-doc/html/gnet/gnet-udp.html
+  /usr/share/gtk-doc/html/gnet/gnet-unix.html
+  /usr/share/gtk-doc/html/gnet/gnet-uri.html
+  /usr/share/gtk-doc/html/gnet/gnet.devhelp
+  /usr/share/gtk-doc/html/gnet/gnet.devhelp2
+  /usr/share/gtk-doc/html/gnet/home.png
+  /usr/share/gtk-doc/html/gnet/index.html
+  /usr/share/gtk-doc/html/gnet/index.sgml
+  /usr/share/gtk-doc/html/gnet/left.png
+  /usr/share/gtk-doc/html/gnet/libgnet-reference.html
+  /usr/share/gtk-doc/html/gnet/right.png
+  /usr/share/gtk-doc/html/gnet/style.css
+  /usr/share/gtk-doc/html/gnet/up.png
+
+------------------
+
+Port Notes:
+
+----- version 2.0.8-2 -----
+Rebuilt.
+
+----- version 2.0.8-1 -----
+Version bump.
+
+----- version 2.0.7-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
