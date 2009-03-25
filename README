@@ -4,20 +4,22 @@ GNet is a simple network library.  It is written in C, object-oriented,
 and built upon GLib.  It is intended to be easy to use and port.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libglib2.0_0-2.18.3-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-3
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gnome-common-2.24.0-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  gtk-doc-1.11-2
   libtool-2.2.6a-1
-  make-3.81-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -47,15 +49,14 @@ Files included in the binary packages:
 
 (libgnet2.0_0)
   /usr/bin/cyggnet-2.0-0.dll
-  /usr/share/doc/gnet2.0-2.0.8/AUTHORS
-  /usr/share/doc/gnet2.0-2.0.8/BUGS
-  /usr/share/doc/gnet2.0-2.0.8/COPYING
-  /usr/share/doc/gnet2.0-2.0.8/ChangeLog
-  /usr/share/doc/gnet2.0-2.0.8/HACKING
-  /usr/share/doc/gnet2.0-2.0.8/INSTALL
-  /usr/share/doc/gnet2.0-2.0.8/NEWS
-  /usr/share/doc/gnet2.0-2.0.8/README
-  /usr/share/doc/gnet2.0-2.0.8/TODO
+  /usr/share/doc/gnet2.0/AUTHORS
+  /usr/share/doc/gnet2.0/BUGS
+  /usr/share/doc/gnet2.0/COPYING
+  /usr/share/doc/gnet2.0/ChangeLog
+  /usr/share/doc/gnet2.0/HACKING
+  /usr/share/doc/gnet2.0/NEWS
+  /usr/share/doc/gnet2.0/README
+  /usr/share/doc/gnet2.0/TODO
 
 (libgnet2.0-devel)
   /usr/include/gnet-2.0/base64.h
@@ -118,14 +119,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.0.8-2 -----
-Rebuilt.
-
------ version 2.0.8-1 -----
-Version bump.
-
------ version 2.0.7-1 -----
-Initial release for Cygwin.
+----- version 2.0.8-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
