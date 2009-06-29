@@ -1,5 +1,5 @@
 category: Gnome Net
-requires: cygwin libgnet2.0_0 libglib2.0-devel
+requires: libgnet2.0_0 libglib2.0-devel
 external-source: gnet2.0
 sdesc: "Glib-based network library (development)"
 ldesc: "GNet is a simple network library.  It is written in C,
