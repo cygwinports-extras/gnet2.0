@@ -1,0 +1,20 @@
+ORIG_PN="gnet"
+inherit gnome2
+
+NAME="gnet2.0"
+VERSION=2.0.8
+RELEASE=10
+CATEGORY="Libs"
+SUMMARY="GLib-based network library"
+DESCRIPTION="GNet is a simple network library.  It is written in C,
+object-oriented, and built upon GLib.  It is intended to be easy to use
+and port."
+HOMEPAGE="http://www.gnetlibrary.org/"
+
+PATCH_URI="2.0.8-no-undefined.patch"
+
+PKG_NAMES="lib${NAME}_0 lib${NAME}-devel lib${NAME}-doc"
+libgnet2_0_0_CONTENTS='usr/bin/*-2.0-0.dll usr/share/doc/'
+libgnet2_0_devel_CONTENTS="usr/include/ usr/lib/ usr/share/aclocal/"
+libgnet2_0_doc_CATEGORY="Doc"
+libgnet2_0_doc_CONTENTS="usr/share/gtk-doc/"

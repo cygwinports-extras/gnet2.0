@@ -1,5 +1,0 @@
-category: Gnome Net
-sdesc: "Glib-based network library (sources)"
-ldesc: "GNet is a simple network library.  It is written in C,
-object-oriented, and built upon GLib.  It is intended to be easy to use
-and port."
